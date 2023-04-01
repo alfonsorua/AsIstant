@@ -78,6 +78,6 @@ La web es bastante intuitiva, al pulsar en el boton de "Grabar" comienza a escuc
 
 ---
 
-# Demo
+# Video Demo
 
 [![Demo](./doc/1.png)](https://www.youtube.com/watch?v=WpmPFzvPxN8)
