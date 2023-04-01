@@ -63,6 +63,10 @@ La web es bastante intuitiva, al pulsar en el boton de "Grabar" comienza a escuc
 Este es un ejemplo de [Pregunta](./doc/in.wav) y [Respuesta](./doc/out.wav)
 
 
+---
+
+
+
 # Web
 
 ![1](./doc/1.png)
