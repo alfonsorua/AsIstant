@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsIstant</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css', _external=True) }}?v={{ cache_buster }}">
+</head>
+<body>
+
+    <div class="contenedor-titulo">  
+        <h1><img src="{{ url_for('static', filename='favicon.ico', _external=True) }}?v={{ cache_buster }}" alt="logo" class='logo'><span class='may'>A</span><span class='min'>s</span><span class='may'>I</span><span class='min'>stant</span></h1>
+    </div>
+
+    <div id="cargaDiv" class="hidden">
+        <div id="loadingIcon" class="loader"></div>
+    </div>
+
+    <div class="contenedor-botones">
+        <button id="recordButton" class="greenButton">Grabar</button>
+        <button id="stopButton" class="redButton" disabled>Detener</button>
+    </div>
+
+    <div class="contenedor-audio">
+        <audio id="player" class="hidden" controls ></audio>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/js.js', _external=True) }}?v={{ cache_buster }}"></script>
+    
+</body>
+</html>
