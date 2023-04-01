@@ -1,4 +1,4 @@
-# AsIstant [en]
+# AsIstente [en]
 
 A simple project about the use of various technologies to achieve a voiceBot that answers our questions.
 
@@ -29,7 +29,7 @@ The web is quite intuitive, when you click on "Grabar" button it starts to recor
 
 ---
 
-# AsIstant [es]
+# AsIstente [es]
 
 Un proyecto sencillo consistente en el uso de diversas tecnologías para lograr un voiceBot que conteste a nuestras preguntas.
 
