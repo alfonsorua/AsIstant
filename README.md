@@ -80,4 +80,4 @@ La web es bastante intuitiva, al pulsar en el boton de "Grabar" comienza a escuc
 
 # Demo
 
-<iframe width="1000" height="615" src="https://www.youtube.com/embed/WpmPFzvPxN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Demo](./doc/1.png)](https://www.youtube.com/watch?v=WpmPFzvPxN8)
