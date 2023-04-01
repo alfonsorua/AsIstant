@@ -10,7 +10,6 @@ To do this we will mainly use 3 technologies:
 
 For the interfacer it has a simple web managed directly with Flask library in python.
 
-
 ### INSTALL:
 
 It is necessary to have python installed and then we will install the libraries we need with:
@@ -51,7 +50,6 @@ Para ello usaremos principalmente 3 tecnologías:
 
 En la parte de la interfaz tenemos una web simple gestionada directamente con python mediante la librería Flask.
 
-
 ### INSTALACION:
 
 Para que funcione el proyecto es necesario tener instalado python, con el cual instalaremos las librerías que necesitamos:
@@ -78,17 +76,8 @@ Se recomienda la utilización de una GPU para los transcripción del audio, Para
 
 La web es bastante intuitiva, al pulsar en el boton de "Grabar" comienza a escucharnos, y al pulsar en "Detener" parará. Tras esto debemos esperar a que se procese (la primera vez puede tardar varios minutos debido a que tiene que descargar todos los modelos) y despues se nos reproducirá el audio con la respuesta.
 
-
 ---
 
+# Demo
 
-
-# Web
-
-![1](./doc/1.png)
-
-![2](./doc/2.png)
-
-![3](./doc/3.png)
-
-![4](./doc/4.png)
+<iframe width="1000" height="615" src="https://www.youtube.com/embed/WpmPFzvPxN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
