@@ -21,7 +21,17 @@ pip3 install -r requirements.txt
 
 This can take a few minutes, after that, we need to modify the "claves.json" file to add our OpenAI API key, you can get it from [OpenAI](https://platform.openai.com/account/api-keys), but you must have a payment method configured. The cost after a few hours of use was around 0.01$ so we should not be worried about it.
 
+We also need an updated version of ffmpeg, to install it we can do it with apt in linux or choco in windows:
+
+```
+choco install ffmpeg
+
+sudo apt install ffmpeg
+```
+
 Finally, we run the "app.py" file wich will creat the server by default on [localhost:5000](http://127.0.0.1:5000).
+
+It is recommended  the use of a GPU for audio transcription, to do so it is necessary to download and configure CUDA (for Nvidia GPUs)
 
 ### USE:
 
@@ -52,7 +62,17 @@ pip3 install -r requirements.txt
 
 Esto puede tardar unos minutos, tras ello, necesitamos modificar el archivo "claves.json" para añadir nuestra clave de la API de OpenAi, se puede obtener en [OpenAI](https://platform.openai.com/account/api-keys), pero se debe tener un metodo de pago activo. El gasto aproximado tras unas horas de uso fué de 0.01€, por lo que no debería preocuparnos en exceso.
 
+También es necesario contar en nuestro sistema con ffmpeg actualizado, para ello podemos usar apt en linux o choco en windows:
+
+```
+choco install ffmpeg
+
+sudo apt install ffmpeg
+```
+
 Finalmente, ejecutamos el archivo "app.py", lo cual creará el servicio web por defecto en [localhost:5000](http://127.0.0.1:5000).
+
+Se recomienda la utilización de una GPU para los transcripción del audio, Para ello es necesario descargar y configurar CUDA (para GPUs de Nvidia).
 
 ### USO:
 
